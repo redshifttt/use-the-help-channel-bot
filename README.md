@@ -1,2 +1,3 @@
-# use-the-help-channel-bot
-a bot that tells you to use the help channel
+# use the help channel
+
+use the fucking help channel instead of asking wherever.
