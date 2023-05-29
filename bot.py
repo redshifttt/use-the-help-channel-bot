@@ -8,6 +8,8 @@ bot = commands.Bot(command_prefix="", intents=intents)
 triggers = [
     "should i",
     "how do i",
+    "doesn't work",
+    "doesnt work",
 ]
 
 channel_whitelist = [
@@ -29,7 +31,7 @@ async def on_message(message):
 
     for t in triggers:
         if t in message_content:
-            await message.reply("hey nerd, chances are you're looking for help. if so then we have a channel for that right here: <#648964758128558103> and you should go there and ask instead of here for fucks sake")
+            await message.reply("hey nerd, chances are you're looking for help. if so then we have a channel for that right here: <#648964758128558103> and you should go there and ask instead of here for fucks sake. imagine not being able to read lmao look at this guy")
 
 with open("config.json", "r", encoding="utf-8") as config:
     config = json.load(config)
